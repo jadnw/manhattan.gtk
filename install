@@ -1,0 +1,6 @@
+#!/bin/fish
+
+git clone https://github.com/jadnw/manhattan.gtk.git
+mkdir -p ~/.local/share/themes
+cp ./manhattan.gtk/themes/* ~/.local/share/themes/
+echo "Set your GTK theme to Manhattan then Enjoy!"
